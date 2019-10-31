@@ -1,0 +1,4 @@
+#!/bin/bash
+
+avg_TotalAssessedValue=$(awk -v FS=, '{sum += $7; count += 1} END {print sum/count}' Property_Tax_Roll.csv)
+echo $avg_TotalAssessedValue 

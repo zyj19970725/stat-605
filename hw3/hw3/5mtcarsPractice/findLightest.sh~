@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cat out_csv/out1.csv out_csv/out2.csv out_csv/out3.csv | {
+    light=1000000
+    while read n;do
+	if [[ $light -gt $n ]]; then
+	    light=$n
+	fi
+    done
+    echo $n>out
+}

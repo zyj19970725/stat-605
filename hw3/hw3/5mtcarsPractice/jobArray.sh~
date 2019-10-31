@@ -1,0 +1,12 @@
+#!/bin/bash
+
+n=$SLURM_ARRAY_TASK_ID
+#n=1
+
+
+wt_idx=7
+gear_idx=11
+# cat mtcars$n.csv | awk -F , '$11==3 { print }' | cut -f 7 -d , > 1.out
+cat mtcars$n.csv | awk -F , '$'"$gear_idx"'==3 { print }' | cut -f $wt_idx -d , > out_csv/out$n.csv
+
+

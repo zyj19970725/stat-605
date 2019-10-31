@@ -1,0 +1,14 @@
+000 (183357.002.000) 2019-10-31 11:38:08 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183357.002.000) 2019-10-31 11:39:42 Started transferring input files
+	Transferring to host: <128.104.55.41:9618?addrs=128.104.55.41-9618+[2607-f388-1086-0-21e-68ff-fe1e-a45e]-9618&alias=c022.chtc.wisc.edu&noUDP&sock=starter_4749_d99a_28844>
+...
+007 (183357.002.000) 2019-10-31 11:39:42 Shadow exception!
+	Error from slot1_4@c022.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.104.55.41:42119>: error reading from /home/yzeng58/htc-jobs-example/<Queue_item>: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	0  -  Run Bytes Sent By Job
+	227  -  Run Bytes Received By Job
+...
+012 (183357.002.000) 2019-10-31 11:39:42 Job was held.
+	Error from slot1_4@c022.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.104.55.41:42119>: error reading from /home/yzeng58/htc-jobs-example/<Queue_item>: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	Code 13 Subcode 2
+...

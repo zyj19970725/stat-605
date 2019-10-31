@@ -1,0 +1,9 @@
+#!/bin/bash
+
+function binary_add {
+    local a=$1
+    local b=$2
+    local sum=$(($a + $b))
+    echo "a=$a, b=$b, sum=$sum" 1>&2
+    echo $sum
+}

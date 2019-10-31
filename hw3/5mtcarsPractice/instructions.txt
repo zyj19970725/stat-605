@@ -1,0 +1,37 @@
+Write a toy HPC program to find the lightest weight (wt) 3 speed
+(gear) car in the mtcars data set by using the following steps.
+
+1. Write getData.sh, which makes three files, mtcars1.csv,
+   mtcars2.csv, and mtcars3.csv, by running this code:
+
+   Rscript -e "write.csv(x=mtcars[ 1:10, ], file='mtcars1.csv'); \
+               write.csv(x=mtcars[11:20, ], file='mtcars2.csv'); \
+               write.csv(x=mtcars[21:32, ], file='mtcars3.csv');"
+
+   (The "\" escapes the newline, so that bash treats the three lines
+   as a single line of code.)
+
+   We'll pretend these three tiny files are large, so that they're
+   worth processing in parallel jobs.
+
+2. Write jobArray.sh to process the ".csv" file (with header)
+   corresponding to the SLURM_ARRAY_TASK_ID given to it. That is, when
+   ${SLURM_ARRAY_TASK_ID} is 1, jobArrayTask.sh should process
+   mtcars1.csv (and similarly for 2 and 3).
+
+   The processing consists of retaining only the weight (wt) column of
+   only the rows corresonding to 3-speed cars (gear) and writing these
+   weights to a file called out1.csv, out2.csv, or out3.csv depending
+   on whether the processed input is mtcars1.csv, mtcars2.csv, or
+   mtcars3.csv.
+
+3. Write findLightest.sh to combine your three output files (out1.csv,
+   out2.csv, out3.csv) into one and write the lightest weight to a
+   file "out".
+
+4. Write submit.sh to use sbatch to submit steps (1) through (3), so
+   that they run in that order (use --dependency), to the HPC.
+
+5. You can check your work with this command:
+
+   Rscript -e 'print(min(mtcars$wt[mtcars$gear == 3]))' # 2.465

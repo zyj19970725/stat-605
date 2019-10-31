@@ -1,0 +1,35 @@
+000 (182791.000.000) 2019-10-29 14:01:57 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (182791.000.000) 2019-10-29 14:05:04 Started transferring input files
+	Transferring to host: <128.105.245.136:9618?addrs=128.105.245.136-9618&alias=e2336.chtc.wisc.edu&noUDP&sock=starter_18991_a09d_30565>
+...
+040 (182791.000.000) 2019-10-29 14:05:04 Finished transferring input files
+...
+001 (182791.000.000) 2019-10-29 14:05:05 Job executing on host: <128.105.245.136:9618?addrs=128.105.245.136-9618&alias=e2336.chtc.wisc.edu&noUDP&sock=startd_4611_5748_3>
+...
+006 (182791.000.000) 2019-10-29 14:05:06 Image size of job updated: 132
+	1  -  MemoryUsage of job (MB)
+	132  -  ResidentSetSize of job (KB)
+...
+040 (182791.000.000) 2019-10-29 14:05:06 Started transferring output files
+...
+040 (182791.000.000) 2019-10-29 14:05:06 Finished transferring output files
+...
+005 (182791.000.000) 2019-10-29 14:05:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	55  -  Run Bytes Sent By Job
+	197  -  Run Bytes Received By Job
+	55  -  Total Bytes Sent By Job
+	197  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       15   102400    331953 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1      500       512 
+
+	Job terminated of its own accord at 2019-10-29T19:05:06Z.
+...

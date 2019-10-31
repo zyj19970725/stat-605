@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## print the name passed in as the argument
+## with information about the user and server
+## running the job
+
+echo "Greetings $1 from `whoami`@`hostname`"
+
+cat $2
+
+
+## wait one minute
+#sleep 10

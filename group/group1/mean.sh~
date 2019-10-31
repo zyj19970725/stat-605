@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "usage: $0 <column> [file.csv]" 1>&2
