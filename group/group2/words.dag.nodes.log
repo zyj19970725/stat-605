@@ -1,0 +1,119 @@
+000 (184317.000.000) 2019-11-06 19:49:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+    DAG Node: 1
+...
+000 (184317.001.000) 2019-11-06 19:49:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+    DAG Node: 1
+...
+000 (184317.002.000) 2019-11-06 19:49:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+    DAG Node: 1
+...
+000 (184317.003.000) 2019-11-06 19:49:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+    DAG Node: 1
+...
+000 (184317.004.000) 2019-11-06 19:49:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+    DAG Node: 1
+...
+001 (184317.001.000) 2019-11-06 19:50:03 Job executing on host: <128.104.58.221:9618?addrs=128.104.58.221-9618+[2607-f388-1086-0-226-9eff-fe2b-bf17]-9618&alias=e1086.chtc.wisc.edu&noUDP&sock=startd_4174_9865_3>
+...
+005 (184317.001.000) 2019-11-06 19:50:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1024695  -  Run Bytes Sent By Job
+	1024778  -  Run Bytes Received By Job
+	1024695  -  Total Bytes Sent By Job
+	1024778  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     2017     1024  11034720 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     1024      1024 
+
+	Job terminated of its own accord at 2019-11-07T01:50:03Z.
+...
+001 (184317.002.000) 2019-11-06 19:50:03 Job executing on host: <128.105.244.40:9618?addrs=128.105.244.40-9618&alias=e3171.chtc.wisc.edu&noUDP&sock=startd_3854_1a17_3>
+...
+001 (184317.004.000) 2019-11-06 19:50:03 Job executing on host: <128.105.244.39:9618?addrs=128.105.244.39-9618&alias=e3170.chtc.wisc.edu&noUDP&sock=startd_2552_09c8_3>
+...
+001 (184317.003.000) 2019-11-06 19:50:03 Job executing on host: <128.105.244.21:9618?addrs=128.105.244.21-9618&alias=e3152.chtc.wisc.edu&noUDP&sock=startd_2508_db9d_3>
+...
+005 (184317.002.000) 2019-11-06 19:50:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1107554  -  Run Bytes Sent By Job
+	1107637  -  Run Bytes Received By Job
+	1107554  -  Total Bytes Sent By Job
+	1107637  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     2178     1024    681635 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     1024      1024 
+
+	Job terminated of its own accord at 2019-11-07T01:50:03Z.
+...
+005 (184317.004.000) 2019-11-06 19:50:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1012023  -  Run Bytes Sent By Job
+	1012106  -  Run Bytes Received By Job
+	1012023  -  Total Bytes Sent By Job
+	1012106  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     1992     1024   1368660 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        0     1024      1024 
+
+	Job terminated of its own accord at 2019-11-07T01:50:03Z.
+...
+005 (184317.003.000) 2019-11-06 19:50:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1093753  -  Run Bytes Sent By Job
+	1093836  -  Run Bytes Received By Job
+	1093753  -  Total Bytes Sent By Job
+	1093836  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     2159     1024    912366 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     1024      1024 
+
+	Job terminated of its own accord at 2019-11-07T01:50:04Z.
+...
+001 (184317.000.000) 2019-11-06 19:50:05 Job executing on host: <128.105.245.80:9618?addrs=128.105.245.80-9618&alias=e280.chtc.wisc.edu&noUDP&sock=startd_7902_b176_3>
+...
+005 (184317.000.000) 2019-11-06 19:50:05 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1045770  -  Run Bytes Sent By Job
+	1045853  -  Run Bytes Received By Job
+	1045770  -  Total Bytes Sent By Job
+	1045853  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     2066     1024    332829 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        0     1024      1024 
+
+	Job terminated of its own accord at 2019-11-07T01:50:05Z.
+...
+016 (184317.000.000) 2019-11-06 19:50:10 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: 1
+...

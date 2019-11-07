@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the words.dag DAG file
+# Created 11/7/2019 01:39:14 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 1
+# Nodes premarked DONE: 0
+# Nodes that failed: 1
+#   1,<ENDLIST>
+

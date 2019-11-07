@@ -1,0 +1,9 @@
+
+job 1 job1.sub
+# job 2 job2sumSquaredDeviationsDataFiles.sub
+
+script pre 1 job1getdata.sh
+# script post 1 job1postSumSumsFindMean.sh
+# script post 2 job2postSumSumsSqDevFindSd.sh
+
+# parent 1 child 2

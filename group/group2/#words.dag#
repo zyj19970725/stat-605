@@ -1,0 +1,9 @@
+
+job 1 job1.sub
+
+
+script pre 1 job1getdata.sh
+script post 1 job1postsort.sh
+
+
+
