@@ -1,4 +1,4 @@
-# Please check the folder words or downloads words.tar.
+# Please check the folder words or download words.tar.
 
 
 
