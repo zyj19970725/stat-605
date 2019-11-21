@@ -1,0 +1,19 @@
+universe = vanilla
+log = log
+error = error/$(Process).err
+
+folder_name = 3586 + $(Process)
+
+executable = ./hw4_q2.sh
+arguments = cB58_Lyman_break.fit $INT(folder_name)
+output = output/$(Process).out
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = /home/groups/STAT605/boss/cB58_Lyman_break.fit, /home/groups/STAT605/boss/tgz/$INT(folder_name), http://proxy.chtc.wisc.edu/SQUID/chtc/R361.tar.gz, packages.tar.gz, hw4.R
+
+request_cpus = 10
+request_memory = 50000GB
+request_disk = 2500000MB
+
+queue 2459
