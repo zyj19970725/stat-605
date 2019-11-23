@@ -2,7 +2,7 @@ universe = vanilla
 log = hw4_1job.log
 error = error/$(Process).err
 
-folder_name = 3590
+folder_name = 3586
 executable = ./hw4_q2.sh
 arguments = cB58_Lyman_break.fit $(folder_name)
 output = output/$(Process).out
