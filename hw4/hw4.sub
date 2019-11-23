@@ -1,19 +1,19 @@
 universe = vanilla
-log = log
+log = log/$(Process).log
 error = error/$(Process).err
 
-folder_name = 3586 + $(Process)
+# folder_name = $(Process) + 3586
 
 executable = ./hw4_q2.sh
-arguments = cB58_Lyman_break.fit $INT(folder_name)
+arguments = cB58_Lyman_break.fit $(folder_name)
 output = output/$(Process).out
 
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
-transfer_input_files = /home/groups/STAT605/boss/cB58_Lyman_break.fit, /home/groups/STAT605/boss/tgz/$INT(folder_name), http://proxy.chtc.wisc.edu/SQUID/chtc/R361.tar.gz, packages.tar.gz, hw4.R
+transfer_input_files = /home/groups/STAT605/boss/cB58_Lyman_break.fit, /home/groups/STAT605/boss/tgz/$(folder_name).tgz, http://proxy.chtc.wisc.edu/SQUID/chtc/R361.tar.gz, packages.tar.gz, hw4.R
 
-request_cpus = 10
-request_memory = 50000GB
-request_disk = 2500000MB
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
 
-queue 2459
+queue folder_name from tgz.txt
