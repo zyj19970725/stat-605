@@ -1,0 +1,70 @@
+aaxis                   Add a Scientific Axis to a Plot
+abox                    Draw a Thick Box Around a Plot
+acb                     Add a Colourbar to a Plot
+acol                    Convert a named colour
+age                     Age of the Universe
+age2z                   Redshift of the Universe at a given age
+akde2d                  Two-Dimensional Kernel Density Estimation
+                        (Astro)
+angdist                 Angular Diameter Distance
+angsize                 Angular Size Conversion
+aplot                   Scientific X-Y Plotting
+aqbeta                  Astro:Beta Distribution (quantile)
+astro                   Astronomy Functions, Tools and Routines
+cardinal                Add Cardinal Points to a Plot
+cenang                  Central Angle
+chicdf                  The Cumulative Distribution Function for the
+                        Chi-Squared Distribution
+chipdf                  The Probability Density Function for the
+                        Chi-Squared Distribution
+chipval                 The P-Value for the Chi-Squared Distribution
+combrad                 Combine Sersic Functions
+comovdist.los           Co-moving Distance (Line of Sight)
+comovdist.trans         Co-moving Distance (Transverse)
+comovvol                Co-moving Volume
+concen                  Central Concentration
+convmu                  Convert Between Sersic Surface Brightnesses
+convrad                 Convert Between Sersic Radii
+coscalc                 Calculates Cosmological Parameters
+ellipse                 Calculates Ellipse Coordinates
+eta                     Calculate ETA of a For-Loop
+gauss                   The Gaussian Function
+get.fitskey             Get FITS Keyword Value From Header
+h2re                    Scalelength to Half-Light Radius
+igamma                  The Incomplete Gamma Function
+kron                    Kron Function
+kronrad                 Kron Radius
+label                   Add A Label To A Plot
+lookback                Lookback Time
+lookback2z              Redshift at a given Lookback Time
+lumdens                 Luminosity Density
+lumdist                 Luminosity Distance
+nicetime                Convert Seconds into a Human Readable Time
+p2chi                   The Chi-Squared Statistic for a Given P-Value
+petro                   Petrosian Function
+petroindex              Petrosian Index
+petrorad                Petrosian Radius
+plotfits                Plot FITS images
+put.fitskey             Put FITS Keyword Value Into Header
+re2h                    Half-Light Radius to Scalelength
+read.fits               Read FITS Files
+read.fitshdr            Read FITS Header
+read.fitsim             Read FITS Image
+read.fitskey            Read FITS Header Keyword
+read.fitstab            Read FITS Table
+scalemark               Add a Scalemark to a Plot
+schechter               The Schechter Function
+schechter.bin           Calculate Schechter Function Binned Variables
+schechter.ellipse       Calculate Error Matrices for a Schechter
+                        Function Fit
+schechter.fit           Fit to the Schechter Function
+scmean                  Sigma-Clipped Mean
+sersic                  Sersic Function
+shade                   Adds a Shaded Region to a Figure
+shadowtext              Add Shadowed Text to a Plot
+solar                   Display the Absolute Magnitude of the Sun
+strip                   Strip Leading/Trailing Characters
+write.fits              Write FITS Files
+write.fitshdr           Write FITS Headers
+write.fitskey           Write FITS Header Keywords
+writeBin64              Transfer Binary Data To a Connection

@@ -1,0 +1,34 @@
+000 (184939.000.000) 2019-11-20 23:03:07 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (184939.000.000) 2019-11-20 23:06:44 Started transferring input files
+	Transferring to host: <128.104.58.226:9618?addrs=128.104.58.226-9618+[2607-f388-1086-0-226-9eff-fe2b-bdac]-9618&alias=e1089.chtc.wisc.edu&noUDP&sock=starter_3995_96bc_68025>
+...
+007 (184939.000.000) 2019-11-20 23:06:45 Shadow exception!
+	Error from slot1_4@e1089.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.104.58.226:35035>: error reading from /home/yzeng58/605/hw4/hw4merge.R 3586.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (184939.000.000) 2019-11-20 23:06:45 Job was held.
+	Error from slot1_4@e1089.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.104.58.226:35035>: error reading from /home/yzeng58/605/hw4/hw4merge.R 3586.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	Code 13 Subcode 2
+...
+000 (184944.000.000) 2019-11-20 23:14:57 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (184944.000.000) 2019-11-20 23:15:08 Started transferring input files
+	Transferring to host: <128.105.245.52:9618?addrs=128.105.245.52-9618&alias=e3252.chtc.wisc.edu&noUDP&sock=starter_17021_958d_67272>
+...
+007 (184944.000.000) 2019-11-20 23:15:10 Shadow exception!
+	Error from slot1_5@e3252.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.105.245.52:42423>: error reading from /home/yzeng58/605/hw4/hw4merge.R 3586.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	0  -  Run Bytes Sent By Job
+	1530135  -  Run Bytes Received By Job
+...
+012 (184944.000.000) 2019-11-20 23:15:10 Job was held.
+	Error from slot1_5@e3252.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.105.245.52:42423>: error reading from /home/yzeng58/605/hw4/hw4merge.R 3586.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	Code 13 Subcode 2
+...
+009 (184944.000.000) 2019-11-20 23:18:12 Job was aborted.
+	via condor_rm (by user yzeng58)
+...
+009 (184939.000.000) 2019-11-20 23:18:12 Job was aborted.
+	via condor_rm (by user yzeng58)
+...
